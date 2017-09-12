@@ -1,4 +1,5 @@
-     <nav class="navbar navbar-default navbar-static-top">
+<%= javascript_include_tag "wow.min.js" %>     
+<nav class="navbar navbar-default navbar-static-top">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -20,8 +21,8 @@
             </div>
          </div>
           <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="#">HOME</a></li>
-            <li><a href="#">ABOUT</a></li>
+            <li class="active"><%= link_to "HOME", root_url %></li>
+            <li class="about_tab"><%= link_to "ABOUT", about_path %></li>
             <li><a href="#">Range Forest</a></li>
             <li><a href="#">Trekking</a></li>
             <li><a href="#">RTI / RTS</a></li>
@@ -31,8 +32,6 @@
           </ul>
         </div><!--/.nav-collapse -->
       </div>
-    </nav>
+</nav>
   <!-- END div#row-fluid -->
-  </div>
-  <!-- END Navbar Inner -->
 
