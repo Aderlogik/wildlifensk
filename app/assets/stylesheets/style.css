@@ -133,3 +133,12 @@ body{font-family: 'open_sansregular' !important;}
 
 .margin-topBot10{ margin-top:10px; padding-bottom:15px;}
 
+/* Contact Us */
+.contact-us-title{background:no-repeat url(contact-us.png) center center; padding:5% 0px;}
+.contact-info{ margin:0px; padding:0px; }
+.contact-info li{ margin-bottom:20px; list-style:none; padding:0px 0px 0px 40px;}
+.contact-info li i{ position:absolute; font-size:24px; left:20px; color:#71ba09;}
+.panel-body .contact-info li i{ left:40px;}
+
+.eco-tourism{background:no-repeat url(eco-turism.png) center center; padding:5% 0px;}
+
