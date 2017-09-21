@@ -8,6 +8,10 @@ Rails.application.routes.draw do
    root 'home#home'
    get 'about' => "home#about"
    get 'contact' => "home#contact"
+   
+   scope "/mr" do
+      match "/home"  => "mr_home#mr_home",     :via => [:get, :post]      #DONE
+  end
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

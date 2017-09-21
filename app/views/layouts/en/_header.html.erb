@@ -1,0 +1,70 @@
+<header class="navbar navbar-fixed-top navbar-inverse" id="top" role="banner">
+     <nav class="navbar navbar-default navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><%= image_tag("logo.jpg", width: "78", height: "114")%></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+         <div class="text-right">
+         	<div class="top-navigation">
+            	<ul>
+                	<li><a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i> info@domainname.com</a></li>
+                    <li><a href="#"><i class="fa fa-phone" aria-hidden="true"></i> 020 123456789</a></li>
+                    <li><%= link_to "मराठी", home_path %> | <%= link_to "English", root_url %></li>
+                </ul>
+            </div>
+         </div>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active" id="visible"><a href="#">HOME </a></li>
+            <li><a href="#" id="visible">ABOUT</a></li>
+            <li><a href="#" id="visible"> Range Forest</a></li>
+            <li><a href="#" id="visible"> Traking</a></li>
+            <li><a href="#" id="visible"> RTI / RTS</a></li>
+            <li><a href="#" id="visible"> Booking</a></li>
+            <li><a href="#" id="visible"> Photo Gallery</a></li>
+            <li><a href="#" id="visible"> Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+  <!-- END div#row-fluid -->
+  </div>
+  <!-- END Navbar Inner -->
+</header>
+
+
+<script type="text/javascript">
+    
+</script>
+    
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+function change_locale(ctrl){
+var parent_div = $(ctrl).closest("a").attr("class");
+console.log(parent_div)
+if(parent_div == "marathi")
+{
+document.getElementById("hidden").style.visibility = "visible";
+document.getElementById("visible").style.visibility = "hidden";
+alert("Success")
+}
+else
+{
+alert("@@@@@@@@@@@@@")
+}
+}
+</script>
