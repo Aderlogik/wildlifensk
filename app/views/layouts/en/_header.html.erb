@@ -21,14 +21,14 @@
             </div>
          </div>
           <ul class="nav navbar-nav navbar-right">
-            <li class="active" id="visible"><a href="#">HOME </a></li>
-            <li><a href="#" id="visible">ABOUT</a></li>
+            <li><%= link_to "HOME", root_url %></li>
+            <li><%= link_to "ABOUT", about_path %></li>
             <li><a href="#" id="visible"> Range Forest</a></li>
             <li><a href="#" id="visible"> Traking</a></li>
             <li><a href="#" id="visible"> RTI / RTS</a></li>
             <li><a href="#" id="visible"> Booking</a></li>
-            <li><a href="#" id="visible"> Photo Gallery</a></li>
-            <li><a href="#" id="visible"> Contact</a></li>
+             <li><%= link_to "Photogallery", photogallery_path %></li>
+            <li><%= link_to "Contact", contact_path %></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -37,34 +37,3 @@
   </div>
   <!-- END Navbar Inner -->
 </header>
-
-
-<script type="text/javascript">
-    
-</script>
-    
-
-
-
-
-
-
-
-
-
-<script type="text/javascript">
-function change_locale(ctrl){
-var parent_div = $(ctrl).closest("a").attr("class");
-console.log(parent_div)
-if(parent_div == "marathi")
-{
-document.getElementById("hidden").style.visibility = "visible";
-document.getElementById("visible").style.visibility = "hidden";
-alert("Success")
-}
-else
-{
-alert("@@@@@@@@@@@@@")
-}
-}
-</script>
