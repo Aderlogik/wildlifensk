@@ -1,4 +1,4 @@
-<header class="navbar navbar-fixed-top navbar-inverse" id="top" role="banner">
+<%= javascript_include_tag "wow.min.js" %>
      <nav class="navbar navbar-default navbar-static-top">
       <div class="container">
         <div class="navbar-header">
@@ -21,14 +21,14 @@
             </div>
          </div>
           <ul class="nav navbar-nav navbar-right">
-            <li class="active" id="hidden"><a href="#"> मुख्यपृष्ठ  </a></li>
-            <li><a href="#" id="hidden">याबद्दल</a></li>
-            <li><a href="#" id="hidden"> श्रेणी वन </a></li>
-            <li><a href="#" id="hidden"> ट्रेकिंग</a></li>
-            <li><a href="#" id="hidden"> RTI / RTS</a></li>
-            <li><a href="#" id="hidden"> बुकिंग</a></li>
-            <li><a href="#" id="hidden"> छायाचित्र</a></li>
-            <li><a href="#" id="hidden">  संपर्क </a></li>
+            <li><%= link_to "मुख्यपृष्ठ", home_path %></li>
+            <li><%= link_to "याबद्दल", mr_about_path %></li>
+            <li><%= link_to "श्रेणी वन", home_path %></li>
+            <li><%= link_to "ट्रेकिंग", home_path %></li>
+            <li><%= link_to "RTI / RTS", home_path %></li>
+            <li><%= link_to "बुकिंग", home_path %></li>
+            <li><%= link_to "छायाचित्र", mr_photogallery_path %></li>
+            <li><%= link_to "संपर्क", mr_contact_path %></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -36,4 +36,3 @@
   <!-- END div#row-fluid -->
   </div>
   <!-- END Navbar Inner -->
-</header>

@@ -13,7 +13,13 @@ Rails.application.routes.draw do
    scope "/mr" do
       match "/home"  => "mr_home#mr_home",     :via => [:get, :post]      #DONE
   end
-
+  
+  get 'mr_about' => "mr_home#mr_about"
+  get 'mr_contact' => "mr_home#mr_contact"
+  get 'mr_photogallery' => "mr_home#mr_photogallery"
+  get 'mr_range_forest' => "mr_home#mr_range_forest"
+  get 'mr_trekking' => "mr_home#mr_trekking"
+  get 'mr_booking' => "mr_home#mr_booking"
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
