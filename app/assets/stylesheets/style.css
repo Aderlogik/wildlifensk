@@ -122,3 +122,22 @@ body{font-family: 'open_sansregular' !important;}
 .footer-social-link li{ display:inline-block; margin:0; padding:0px 10px; list-style:none; font-size:20px;}
 .footer-social-link li a{color:#e2e2e2;}
 .footer-social-link li a:hover{color:#71ba09;}
+/* About Us */
+.about-us-title{ background:no-repeat url(/assets/about-img.png); padding:5% 0px;}
+.page-title{ font-size:60px; color:#fff; font-family: 'open_sanssemibold';}
+.about-text{color:#6b6b6b; font-size:16px}
+.organization-chart{ text-align:center; margin:20px 0px;}
+.organization-chart p{ font-size:13px}
+.organization-chart img{ height:85px; width:85px; border-radius:50%; border:2px solid #d4d4d4; margin-bottom:10px;}
+
+.margin-topBot10{ margin-top:10px; padding-bottom:15px;}
+
+
+/* Contact Us */
+.contact-us-title{background:no-repeat url(/assets/contact-us.png) center center; padding:5% 0px;}
+.contact-info{ margin:0px; padding:0px; }
+.contact-info li{ margin-bottom:20px; list-style:none; padding:0px 0px 0px 40px;}
+.contact-info li i{ position:absolute; font-size:24px; left:20px; color:#71ba09;}
+.panel-body .contact-info li i{ left:40px;}
+
+.eco-tourism{background:no-repeat url(/assets/eco-turism.png) center center; padding:5% 0px;}
