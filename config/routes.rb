@@ -9,6 +9,7 @@ Rails.application.routes.draw do
    get 'about' => "home#about"
    get 'contact' => "home#contact"
    get 'photogallery' => "home#photogallery"
+   get 'eco_tourism' => "home#eco_tourism"
    
    scope "/mr" do
       match "/home"  => "mr_home#mr_home",     :via => [:get, :post]      #DONE
@@ -17,6 +18,7 @@ Rails.application.routes.draw do
   get 'mr_about' => "mr_home#mr_about"
   get 'mr_contact' => "mr_home#mr_contact"
   get 'mr_photogallery' => "mr_home#mr_photogallery"
+  get 'mr_eco_tourism' => "mr_home#mr_eco_tourism"
   get 'mr_range_forest' => "mr_home#mr_range_forest"
   get 'mr_trekking' => "mr_home#mr_trekking"
   get 'mr_booking' => "mr_home#mr_booking"

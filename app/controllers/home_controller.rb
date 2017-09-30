@@ -10,4 +10,8 @@ class HomeController < ApplicationController
 
   def photogallery
   end  
+  
+  def eco_tourism
+  end
+  
 end

@@ -7,6 +7,13 @@
 }
 
 @font-face {
+    font-family: 'NirmalaUI';
+    src: url('NirmalaUI.eot?#iefix') format('embedded-opentype'),  url('../fonts/NirmalaUI.woff') format('woff'), url('../fonts/NirmalaUI.ttf')  format('truetype'), url('../fonts/NirmalaUI.svg#NirmalaUI') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'open_sansregular';
     src: url('opensans-regular-webfont.woff2') format('woff2'),
          url('opensans-regular-webfont.woff') format('woff');
@@ -141,3 +148,14 @@ body{font-family: 'open_sansregular' !important;}
 .panel-body .contact-info li i{ left:40px;}
 
 .eco-tourism{background:no-repeat url(/assets/eco-turism.png) center center; padding:5% 0px;}
+.font-marathi{ font-family:"NirmalaUI"; font-size:16px;}
+.sidebar-menu li{ padding-left:15px !important; margin-bottom:1px !important;}
+.sidebar-menu li:hover{ background:#2cc03a; cursor:pointer;}
+.sidebar-menu li.active{background:#2cc03a;}
+.sidebar-menu li.active a{color:#fff;}
+.sidebar-menu li:hover a{ color:#fff;}
+.page-header-inner{font-size:28px; color:#2cc03a; font-weight:bold;}
+.sub-heading{font-size:22px; color:#2cc03a; font-weight:bold;}
+.page-contact{border-top:1px solid #2cc03a; text-align:right; margin-top:15px; padding-top:10px;}
+.page-contact a{ color:#2cc03a; font-size:18px; margin:0px 10px;}
+.photo-gallery .col-md-4{ overflow:hidden; height:200px;}

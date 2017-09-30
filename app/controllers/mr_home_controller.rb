@@ -17,4 +17,8 @@ class MrHomeController < ApplicationController
   
   def mr_booking
   end
+  
+   def mr_eco_tourism
+  end
+  
 end
