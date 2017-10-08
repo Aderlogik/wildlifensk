@@ -20,4 +20,7 @@ class HomeController < ApplicationController
   def anerdam
   end
   
+  def yawal
+  end
+  
 end

@@ -11,7 +11,7 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
             <div class="item active">
-                <img src="/assets/slider.jpg" alt="...">
+                <%= image_tag("slide01.png", style: 'width:100%') %>
                 <div class="carousel-caption wow bounceInDown" data-wow-duration="0.5s">
                     <h1>Best Trekking Places</h1>
                     <p>Around the Nashik</p>
@@ -19,7 +19,23 @@
                 </div>
             </div>
             <div class="item">
-                <img src="/assets/slider.jpg" alt="...">
+                <%= image_tag("slide02.png", style: 'width:100%') %>
+                <div class="carousel-caption">
+                    <h1>Second tagline gose here</h1>
+                    <p>Around the Nashik</p>
+                </div>
+            </div>
+            
+            <div class="item">
+                <%= image_tag("slide03.png", style: 'width:100%') %>
+                <div class="carousel-caption">
+                    <h1>Second tagline gose here</h1>
+                    <p>Around the Nashik</p>
+                </div>
+            </div>
+            
+            <div class="item">
+                <%= image_tag("slide04.png", style: 'width:100%') %>
                 <div class="carousel-caption">
                     <h1>Second tagline gose here</h1>
                     <p>Around the Nashik</p>
@@ -54,9 +70,10 @@
     <div class="container">
         <!-- Example row of columns -->
         <div class="row">
-            <h1 class="head">Range <span>Forest</span></h1>
+            <h1 class="head">Wildlife <span>Sanctuary </span></h1>
             <div class="row">
                 <div class="col-md-4 wow bounceInLeft">
+                    <h3>Nandur Madhameshwar WLS</h3>
                     <div class="box">
                         <div class="img-holder"><%= image_tag("img01.jpg", width: "353", height: "166")%> 
                             <div class="image-text">Nandur Madhameshwar</div>
@@ -68,155 +85,159 @@
                             <li><a href="#">Beautyfull Sunset and Sunrise Sceneries</a></li>
                         </ul>
                         <p class="text-center"><%= link_to "View details »", nandur_madhameshwar_path, class: "btn btn-green" %></p>
-                    </div>
-                </div>
-                <div class="col-md-4 wow flipInX center">
-                    <div class="box">
-                        <div class="img-holder"><%= image_tag("img02.jpg", width: "353", height: "166")%> 
-                            <div class="image-text">Rajur</div>
-                        </div>
-                        <ul>
-                            <li><a href="#">Nandur Madhmeshwar Dam</a></li>
-                            <li><a href="#">Migratory Birds</a></li>
-                            <li><a href="#">Mrugvyadheshwar temple</a></li>
-                            <li><a href="#">Beautyfull Sunset and Sunrise Sceneries</a></li>
-                        </ul>
-                        <p class="text-center"><a class="btn btn-green" href="#" role="button">View details »</a></p>
-                    </div>
-                </div>
-                <div class="col-md-4 wow bounceInRight">
-                    <div class="box">
-                        <div class="img-holder"><%= image_tag("img03.jpg", width: "353", height: "166")%> 
-                            <div class="image-text">Bhandardara</div>
-                        </div>
-                        <ul>
-                            <li><a href="#">Nandur Madhmeshwar Dam</a></li>
-                            <li><a href="#">Migratory Birds</a></li>
-                            <li><a href="#">Mrugvyadheshwar temple</a></li>
-                            <li><a href="#">Beautyfull Sunset and Sunrise Sceneries</a></li>
-                        </ul>
-                        <p class="text-center"><a class="btn btn-green" href="#" role="button">View details »</a></p>
-                    </div>
-                </div>
+                      </div>
+                  </div>
+                  <div class="col-md-4 wow flipInX center">
+                       <h3>Kalsubai Harishhcandragad WLS</h3>
+                      <div class="box">
+                          <div class="img-holder"><%= image_tag("img02.jpg", width: "353", height: "166")%> 
+                              <div class="image-text">Rajur</div>
+                          </div>
+                          <ul>
+                              <li><a href="#">Nandur Madhmeshwar Dam</a></li>
+                              <li><a href="#">Migratory Birds</a></li>
+                              <li><a href="#">Mrugvyadheshwar temple</a></li>
+                              <li><a href="#">Beautyfull Sunset and Sunrise Sceneries</a></li>
+                          </ul>
+                          <p class="text-center"><a class="btn btn-green" href="#" role="button">View details »</a></p>
+                      </div>
+                  </div>
+                  <div class="col-md-4 wow bounceInRight">
+                      <h3>&nbsp;</h3>
+                      <div class="box">
+                          <div class="img-holder"><%= image_tag("img03.jpg", width: "353", height: "166")%> 
+                              <div class="image-text">Bhandardara</div>
+                          </div>
+                          <ul>
+                              <li><a href="#">Nandur Madhmeshwar Dam</a></li>
+                              <li><a href="#">Migratory Birds</a></li>
+                              <li><a href="#">Mrugvyadheshwar temple</a></li>
+                              <li><a href="#">Beautyfull Sunset and Sunrise Sceneries</a></li>
+                          </ul>
+                          <p class="text-center"><a class="btn btn-green" href="#" role="button">View details »</a></p>
+                      </div>
+                  </div>
 
-                <div class="col-md-4 wow bounceInLeft">
-                    <div class="box">
-                        <div class="img-holder"><%= image_tag("img04.jpg", width: "353", height: "166")%> 
-                            <div class="image-text">Jamnya</div>
-                        </div>
-                        <ul>
-                            <li><a href="#">Nandur Madhmeshwar Dam</a></li>
-                            <li><a href="#">Migratory Birds</a></li>
-                            <li><a href="#">Mrugvyadheshwar temple</a></li>
-                            <li><a href="#">Beautyfull Sunset and Sunrise Sceneries</a></li>
-                        </ul>
-                        <p class="text-center"><a class="btn btn-green" href="#" role="button">View details »</a></p>
-                    </div>
-                </div>
-
-                <div class="col-md-4 wow flipInX center">
-                    <div class="box">
-                        <div class="img-holder"><%= image_tag("img05.jpg", width: "353", height: "166")%> 
-                            <div class="image-text">Pal</div>
-                        </div>
-                        <ul>
-                            <li><a href="#">Nandur Madhmeshwar Dam</a></li>
-                            <li><a href="#">Migratory Birds</a></li>
-                            <li><a href="#">Mrugvyadheshwar temple</a></li>
-                            <li><a href="#">Beautyfull Sunset and Sunrise Sceneries</a></li>
-                        </ul>
-                        <p class="text-center"><a class="btn btn-green" href="#" role="button">View details »</a></p>
-                    </div>
-                </div>
-
-                <div class="col-md-4 wow bounceInRight">
-                    <div class="box">
-                        <div class="img-holder"><%= image_tag("img06.jpg", width: "353", height: "166")%> 
-                            <div class="image-text">Aner dam Shirpur</div>
-                        </div>
-                        <ul>
-                            <li><a href="#">Nandur Madhmeshwar Dam</a></li>
-                            <li><a href="#">Migratory Birds</a></li>
-                            <li><a href="#">Mrugvyadheshwar temple</a></li>
-                            <li><a href="#">Beautyfull Sunset and Sunrise Sceneries</a></li>
-                        </ul>
-                        <p class="text-center"><%= link_to "View details »", anerdam_path, class: "btn btn-green" %></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-
-    </div>
-    <section class="section-event">
-        <img src="/assets/event-image.jpg" width="100%"> 
-    </section>
-    <!-- Range Forest End-->  
-
-    <!-- Testimonials-->
-    <section class="testimonials">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8">
-                    <h2>Testimonials</h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when</p>
-                    <br /><br />
-                    <div class="col-md-6">
-                        <div class="testimonials-box">
-                            <div class="user-pic"><img src="/assets/user-pic.jpg" width="63" height="74"></div>
-                            <div class="user-name">Name gose here <span>CEO - founder, Aderlogik</span></div>
-
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                  <div class="col-md-4 wow bounceInLeft">
+                      <h3>Yawal WLS</h3>
+                      <div class="box">
+                          <div class="img-holder"><%= image_tag("img04.jpg", width: "353", height: "166")%> 
+                              <div class="image-text">Jamnya</div>
+                          </div>
+                          <ul>
+                              <li><a href="#">Nandur Madhmeshwar Dam</a></li>
+                              <li><a href="#">Migratory Birds</a></li>
+                              <li><a href="#">Mrugvyadheshwar temple</a></li>
+                              <li><a href="#">Beautyfull Sunset and Sunrise Sceneries</a></li>
+                          </ul>
+                          <p class="text-center"><%= link_to "View details »", yawal_path, class: "btn btn-green" %></p>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <div class="testimonials-box">
-                            <div class="user-pic"><img src="/assets/user-pic.jpg" width="63" height="74"></div>
-                            <div class="user-name">Name gose here <span>CEO - founder, Aderlogik</span></div>
 
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                    <div class="col-md-4 wow flipInX center">
+                        <h3>&nbsp;</h3>
+                        <div class="box">
+                            <div class="img-holder"><%= image_tag("img05.jpg", width: "353", height: "166")%> 
+                                <div class="image-text">Pal</div>
+                            </div>
+                            <ul>
+                                <li><a href="#">Nandur Madhmeshwar Dam</a></li>
+                                <li><a href="#">Migratory Birds</a></li>
+                                <li><a href="#">Mrugvyadheshwar temple</a></li>
+                                <li><a href="#">Beautyfull Sunset and Sunrise Sceneries</a></li>
+                            </ul>
+                            <p class="text-center"><a class="btn btn-green" href="#" role="button">View details »</a></p>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4 important-link">
-                    <h2>Important links</h2>
-                    <ul>
-                        <li><a href="#">4 Crore Plantation Information</a></li>
-                        <li><a href="#">Online booking for Forest Rest Houses / Lodging / Safari</a></li>
-                        <li><a href="#">Bio-Diversity</a></li>
-                        <li><a href="#">Forest Development Corporation Of Maharashtra</a></li>
-                        <li><a href="#">Internet</a></li>
-                        <li><a href="#">RTS Services</a></li>
-                        <li><a href="#">DIPP Services</a></li>
-                        <li><a href="#">Green Army</a></li>
-                        <li><a href="#">Government of Maharashtra</a></li>
-                        <li><a href="#">Maharashtra Agriculture Deptt</a></li>
-                        <li><a href="#">Mahanews</a></li>
-                    </ul>
 
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Testimonials End-->
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <%#*<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>%>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script>
-        wow = new WOW(
-        {
-        animateClass: 'animated',
-        offset:       100,
-        callback:     function(box) {
-        console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
-        }
-        }
-        );
-        wow.init();
+                    <div class="col-md-4 wow bounceInRight">
+                        <h3>Aner Dam WLS</h3>
+                        <div class="box">
+                            <div class="img-holder"><%= image_tag("img06.jpg", width: "353", height: "166")%> 
+                                <div class="image-text">Aner dam Shirpur</div>
+                            </div>
+                            <ul>
+                                <li><a href="#">Nandur Madhmeshwar Dam</a></li>
+                                <li><a href="#">Migratory Birds</a></li>
+                                <li><a href="#">Mrugvyadheshwar temple</a></li>
+                                <li><a href="#">Beautyfull Sunset and Sunrise Sceneries</a></li>
+                            </ul>
+                            <p class="text-center"><%= link_to "View details »", anerdam_path, class: "btn btn-green" %></p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
 
 
-    </script>
-</body>
+
+          </div>
+          <section class="section-event">
+              <div><%= image_tag("event-image.jpg", style: 'width:100%') %></div> 
+          </section>
+          <!-- Range Forest End-->  
+
+          <!-- Testimonials-->
+          <section class="testimonials">
+              <div class="container">
+                  <div class="row">
+                      <div class="col-md-8">
+                          <h2>Testimonials</h2>
+                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when</p>
+                          <br /><br />
+                          <div class="col-md-6">
+                              <div class="testimonials-box">
+                                  <div class="user-pic"><%= image_tag("user-pic.jpg", width: "63", height: "74")%></div>
+                                      <div class="user-name">Name gose here <span>CEO - founder, Aderlogik</span></div>
+
+                                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                                  </div>
+                              </div>
+                          <div class="col-md-6">
+                              <div class="testimonials-box">
+                                  <div class="user-pic"><%= image_tag("user-pic.jpg", width: "63", height: "74")%></div>
+                                      <div class="user-name">Name gose here <span>CEO - founder, Aderlogik</span></div>
+
+                                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                                  </div>
+                              </div>
+                      </div>
+                      <div class="col-md-4 important-link">
+                          <h2>Important links</h2>
+                          <ul>
+                              <li><a href="#">4 Crore Plantation Information</a></li>
+                              <li><a href="#">Online booking for Forest Rest Houses / Lodging / Safari</a></li>
+                              <li><a href="#">Bio-Diversity</a></li>
+                              <li><a href="#">Forest Development Corporation Of Maharashtra</a></li>
+                              <li><a href="#">Internet</a></li>
+                              <li><a href="#">RTS Services</a></li>
+                              <li><a href="#">DIPP Services</a></li>
+                              <li><a href="#">Green Army</a></li>
+                              <li><a href="#">Government of Maharashtra</a></li>
+                              <li><a href="#">Maharashtra Agriculture Deptt</a></li>
+                              <li><a href="#">Mahanews</a></li>
+                          </ul>
+
+                      </div>
+                  </div>
+          </section>
+          <!-- Testimonials End-->
+          <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <%#*<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>%>
+          <!-- Include all compiled plugins (below), or include individual files as needed -->
+          <script>
+              wow = new WOW(
+              {
+              animateClass: 'animated',
+              offset:       100,
+              callback:     function(box) {
+              console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+              }
+              }
+              );
+              wow.init();
+
+
+          </script>
+      </body>

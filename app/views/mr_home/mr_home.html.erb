@@ -1,4 +1,4 @@
-<%#= javascript_include_tag "bootstrap.min.js" %>
+<%= javascript_include_tag "bootstrap.min.js" %>
 <%#= javascript_include_tag "wow.min.js" %>
 <body>
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -11,8 +11,7 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
             <div class="item active">
-                <%= image_tag("slider.jpg", alt: "...")%>
-                <%#*<img src="assets/slider.jpg" alt="...">%>
+                <%= image_tag("slide01.png", alt: "...")%>
                 <div class="carousel-caption wow bounceInDown" data-wow-duration="0.5s">
                     <h1>उत्कृष्ट ट्रेकिंग ठिकाणे</h1>
                     <p>नाशिक जवळ</p>
@@ -20,8 +19,23 @@
                 </div>
             </div>
             <div class="item">
-                <%= image_tag("slider.jpg", alt: "...")%>
-                <%#*<img src="assets/slider.jpg" alt="...">%>
+                <%= image_tag("slide02.png", alt: "...")%>
+                <div class="carousel-caption">
+                    <h1>येथे दुसरी टॅगलाइन</h1>
+                    <p>नाशिक जवळ</p>
+                </div>
+            </div>
+            
+            <div class="item">
+                <%= image_tag("slide03.png", alt: "...")%>
+                <div class="carousel-caption">
+                    <h1>येथे दुसरी टॅगलाइन</h1>
+                    <p>नाशिक जवळ</p>
+                </div>
+            </div>
+            
+            <div class="item">
+                <%= image_tag("slide04.png", alt: "...")%>
                 <div class="carousel-caption">
                     <h1>येथे दुसरी टॅगलाइन</h1>
                     <p>नाशिक जवळ</p>
@@ -59,6 +73,7 @@
             <h1 class="head">श्रेणी  <span>वन</span></h1>
             <div class="row">
                 <div class="col-md-4 wow bounceInLeft">
+                    <h3>नांदूर मधमेश्वर WLS</h3>
                     <div class="box">
                         <div class="img-holder"><%= image_tag("img01.jpg", width: "353", height: "166")%>
                             <div class="image-text">नांदूर मधमेश्वर</div>
@@ -70,156 +85,154 @@
                             <li><a href="#">सौंदर्यपूर्ण सूर्यास्त आणि सूर्योदय</a></li>
                         </ul>
                         <p class="text-center"><%= link_to "तपशील पहा »", mr_nandur_madhameshwar_path, class: "btn btn-green" %></p>
-                    </div>
-                </div>
-                <div class="col-md-4 wow flipInX center">
-                    <div class="box">
-                        <div class="img-holder"><%= image_tag("img02.jpg", width: "353", height: "166")%>
-                            <div class="image-text">राजूर</div>
-                        </div>
-                        <ul>
-                            <li><a href="#">नांदूर मधमेश्वर धरण</a></li>
-                            <li><a href="#">स्थलांतरित पक्षी</a></li>
-                            <li><a href="#">मृग्वीदेहेश्वर मंदिर</a></li>
-                            <li><a href="#">सौंदर्यपूर्ण सूर्यास्त आणि सूर्योदय</a></li>
-                        </ul>
-                        <p class="text-center"><a class="btn btn-green" href="#" role="button">तपशील पहा »</a></p>
-                    </div>
-                </div>
-                <div class="col-md-4 wow bounceInRight">
-                    <div class="box">
-                        <div class="img-holder"><%= image_tag("img03.jpg", width: "353", height: "166")%>
-                            <div class="image-text">भंडारदरा</div>
-                        </div>
-                        <ul>
-                            <li><a href="#">नांदूर मधमेश्वर धरण</a></li>
-                            <li><a href="#">स्थलांतरित पक्षी</a></li>
-                            <li><a href="#">मृग्वीदेहेश्वर मंदिर</a></li>
-                            <li><a href="#">सौंदर्यपूर्ण सूर्यास्त आणि सूर्योदय</a></li>
-                        </ul>
-                        <p class="text-center"><a class="btn btn-green" href="#" role="button">तपशील पहा »</a></p>
-                    </div>
-                </div>
-
-                <div class="col-md-4 wow bounceInLeft">
-                    <div class="box">
-                        <div class="img-holder"><%= image_tag("img04.jpg", width: "353", height: "166")%>
-                            <div class="image-text">जामन्या</div>
-                        </div>
-                        <ul>
-                            <li><a href="#">नांदूर मधमेश्वर धरण</a></li>
-                            <li><a href="#">स्थलांतरित पक्षी</a></li>
-                            <li><a href="#">मृग्वीदेहेश्वर मंदिर</a></li>
-                            <li><a href="#">सौंदर्यपूर्ण सूर्यास्त आणि सूर्योदय</a></li>
-                        </ul>
-                        <p class="text-center"><a class="btn btn-green" href="#" role="button">तपशील पहा »</a></p>
-                    </div>
-                </div>
-
-                <div class="col-md-4 wow flipInX center">
-                    <div class="box">
-                        <div class="img-holder"><%= image_tag("img05.jpg", width: "353", height: "166")%>
-                            <div class="image-text">पाल</div>
-                        </div>
-                        <ul>
-                            <li><a href="#">नांदूर मधमेश्वर धरण</a></li>
-                            <li><a href="#">स्थलांतरित पक्षी</a></li>
-                            <li><a href="#">मृग्वीदेहेश्वर मंदिर</a></li>
-                            <li><a href="#">सौंदर्यपूर्ण सूर्यास्त आणि सूर्योदय</a></li>
-                        </ul>
-                        <p class="text-center"><a class="btn btn-green" href="#" role="button">तपशील पहा »</a></p>
-                    </div>
-                </div>
-
-                <div class="col-md-4 wow bounceInRight">
-                    <div class="box">
-                        <div class="img-holder"><%= image_tag("img06.jpg", width: "353", height: "166")%>
-                            <div class="image-text">अनेर बांध शिरपूर</div>
-                        </div>
-                        <ul>
-                            <li><a href="#">नांदूर मधमेश्वर धरण</a></li>
-                            <li><a href="#">स्थलांतरित पक्षी</a></li>
-                            <li><a href="#">मृग्वीदेहेश्वर मंदिर</a></li>
-                            <li><a href="#">सौंदर्यपूर्ण सूर्यास्त आणि सूर्योदय</a></li>
-                        </ul>
-                        <p class="text-center"><%= link_to "तपशील पहा »", mr_anerdam_path, class: "btn btn-green" %></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-
-    </div>
-    <section class="section-event">
-        <%= image_tag("event-image.jpg", width: "100%")%>
-        <%#*<img src="assets/event-image.jpg" width="100%">%> 
-    </section>
-    <!-- Range Forest End-->  
-
-    <!-- Testimonials-->
-    <section class="testimonials">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8">
-                    <h2>प्रशस्तिपत्रे</h2>
-                    <p>Lorem Ipsum फक्त मुद्रण आणि टाइपसेटिंग उद्योगाचे बनावट मजकूर आहे. Lorem Ipsum 1500s पासून कधीही उद्योग मानक डमी मजकूर आहे, जेव्हा</p>
-                    <br /><br />
-                    <div class="col-md-6">
-                        <div class="testimonials-box">
-                            <div class="user-pic"><%= image_tag("user-pic.jpg", width: "63", height: "74")%></div>
-                            <div class="user-name">जेम्स थॉमस <span>मुख्य कार्यकारी अधिकारी - संस्थापक, ऍडरलोजिक</span></div>
-
-                            <p>Lorem Ipsum फक्त मुद्रण आणि टाइपसेटिंग उद्योगाचे बनावट मजकूर आहे. </p>
-                            <p>Lorem Ipsum फक्त मुद्रण आणि टाइपसेटिंग उद्योगाचे बनावट मजकूर आहे. </p>
+                      </div>
+                  </div>
+                  <div class="col-md-4 wow flipInX center">
+                      <h3>कळसूबाई हरिश्चंद्रगड WLS</h3>
+                      <div class="box">
+                          <div class="img-holder"><%= image_tag("img02.jpg", width: "353", height: "166")%>
+                              <div class="image-text">राजूर</div>
+                          </div>
+                          <ul>
+                              <li><a href="#">नांदूर मधमेश्वर धरण</a></li>
+                              <li><a href="#">स्थलांतरित पक्षी</a></li>
+                              <li><a href="#">मृग्वीदेहेश्वर मंदिर</a></li>
+                              <li><a href="#">सौंदर्यपूर्ण सूर्यास्त आणि सूर्योदय</a></li>
+                          </ul>
+                          <p class="text-center"><a class="btn btn-green" href="#" role="button">तपशील पहा »</a></p>
+                      </div>
+                  </div>
+                  <div class="col-md-4 wow bounceInRight">
+                      <h3>&nbsp;</h3>
+                      <div class="box">
+                          <div class="img-holder"><%= image_tag("img03.jpg", width: "353", height: "166")%>
+                              <div class="image-text">भंडारदरा</div>
+                          </div>
+                          <ul>
+                              <li><a href="#">नांदूर मधमेश्वर धरण</a></li>
+                              <li><a href="#">स्थलांतरित पक्षी</a></li>
+                              <li><a href="#">मृग्वीदेहेश्वर मंदिर</a></li>
+                              <li><a href="#">सौंदर्यपूर्ण सूर्यास्त आणि सूर्योदय</a></li>
+                          </ul>
+                          <p class="text-center"><a class="btn btn-green" href="#" role="button">तपशील पहा »</a></p>
+                      </div>
+                  </div>
+                  <div class="col-md-4 wow bounceInLeft">
+                      <h3>यावल WLS</h3>
+                      <div class="box">
+                          <div class="img-holder"><%= image_tag("img04.jpg", width: "353", height: "166")%>
+                              <div class="image-text">जामन्या</div>
+                          </div>
+                          <ul>
+                              <li><a href="#">नांदूर मधमेश्वर धरण</a></li>
+                              <li><a href="#">स्थलांतरित पक्षी</a></li>
+                              <li><a href="#">मृग्वीदेहेश्वर मंदिर</a></li>
+                              <li><a href="#">सौंदर्यपूर्ण सूर्यास्त आणि सूर्योदय</a></li>
+                          </ul>
+                          <p class="text-center"><%= link_to "तपशील पहा »", mr_yawal_path, class: "btn btn-green" %></p>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <div class="testimonials-box">
-                            <div class="user-pic"><%= image_tag("user-pic.jpg", width: "63", height: "74")%></div>
-                            <div class="user-name">जेम्स थॉमस <span>मुख्य कार्यकारी अधिकारी - संस्थापक, ऍडरलोजिक</span></div>
-
-                            <p>Lorem Ipsum फक्त मुद्रण आणि टाइपसेटिंग उद्योगाचे बनावट मजकूर आहे. </p>
-                            <p>Lorem Ipsum फक्त मुद्रण आणि टाइपसेटिंग उद्योगाचे बनावट मजकूर आहे. </p>
+                    <div class="col-md-4 wow flipInX center">
+                        <h3>&nbsp;</h3>
+                        <div class="box">
+                            <div class="img-holder"><%= image_tag("img05.jpg", width: "353", height: "166")%>
+                                <div class="image-text">पाल</div>
+                            </div>
+                            <ul>
+                                <li><a href="#">नांदूर मधमेश्वर धरण</a></li>
+                                <li><a href="#">स्थलांतरित पक्षी</a></li>
+                                <li><a href="#">मृग्वीदेहेश्वर मंदिर</a></li>
+                                <li><a href="#">सौंदर्यपूर्ण सूर्यास्त आणि सूर्योदय</a></li>
+                            </ul>
+                            <p class="text-center"><a class="btn btn-green" href="#" role="button">तपशील पहा »</a></p>
                         </div>
                     </div>
-                    </div>
-                <div class="col-md-4 important-link">
-                    <h2>महत्वाचे दुवे</h2>
-                    <ul>
-                        <li><a href="#">४ कोटी वृक्षारोपण माहिती</a></li>
-                        <li><a href="#">वन विश्राम गृह / लॉजिंग / सफारीसाठी ऑनलाइन बुकिंग</a></li>
-                        <li><a href="#">जैव विविधता</a></li>
-                        <li><a href="#">महाराष्ट्र वन विकास महामंडळ</a></li>
-                        <li><a href="#">इंटरनेट</a></li>
-                        <li><a href="#">RTS सेवा</a></li>
-                        <li><a href="#">DIPP सेवा</a></li>
-                        <li><a href="#">हिरव्या सैन्य</a></li>
-                        <li><a href="#">महाराष्ट्र सरकार</a></li>
-                        <li><a href="#">महाराष्ट्र कृषी विभाग</a></li>
-                        <li><a href="#">महाराष्ट्र बातम्या</a></li>
-                    </ul>
+                    <div class="col-md-4 wow bounceInRight">
+                        <h3>अनेर बांध WLS</h3>
+                        <div class="box">
+                            <div class="img-holder"><%= image_tag("img06.jpg", width: "353", height: "166")%>
+                                <div class="image-text">अनेर बांध शिरपूर</div>
+                            </div>
+                            <ul>
+                                <li><a href="#">नांदूर मधमेश्वर धरण</a></li>
+                                <li><a href="#">स्थलांतरित पक्षी</a></li>
+                                <li><a href="#">मृग्वीदेहेश्वर मंदिर</a></li>
+                                <li><a href="#">सौंदर्यपूर्ण सूर्यास्त आणि सूर्योदय</a></li>
+                            </ul>
+                            <p class="text-center"><%= link_to "तपशील पहा »", mr_anerdam_path, class: "btn btn-green" %></p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <section class="section-event">
+              <%= image_tag("event-image.jpg", width: "100%")%>
+          </section>
+          <!-- Range Forest End-->  
 
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Testimonials End-->
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <%#*<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>%>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <%#*<script src="assets/bootstrap.min.js"></script>%>
-    <%#*<script src="assets/wow.min.js"></script>%>
-    <script>
-        wow = new WOW(
-        {
-        animateClass: 'animated',
-        offset:       100,
-        callback:     function(box) {
-        console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
-        }
-        }
-        );
-        wow.init();
-    </script>
-</body>
+          <!-- Testimonials-->
+          <section class="testimonials">
+              <div class="container">
+                  <div class="row">
+                      <div class="col-md-8">
+                          <h2>प्रशस्तिपत्रे</h2>
+                          <p>Lorem Ipsum फक्त मुद्रण आणि टाइपसेटिंग उद्योगाचे बनावट मजकूर आहे. Lorem Ipsum 1500s पासून कधीही उद्योग मानक डमी मजकूर आहे, जेव्हा</p>
+                          <br /><br />
+                          <div class="col-md-6">
+                              <div class="testimonials-box">
+                                  <div class="user-pic"><%= image_tag("user-pic.jpg", width: "63", height: "74")%></div>
+                                  <div class="user-name">जेम्स थॉमस <span>मुख्य कार्यकारी अधिकारी - संस्थापक, ऍडरलोजिक</span></div>
+
+                                  <p>Lorem Ipsum फक्त मुद्रण आणि टाइपसेटिंग उद्योगाचे बनावट मजकूर आहे. </p>
+                                  <p>Lorem Ipsum फक्त मुद्रण आणि टाइपसेटिंग उद्योगाचे बनावट मजकूर आहे. </p>
+                              </div>
+                          </div>
+                          <div class="col-md-6">
+                              <div class="testimonials-box">
+                                  <div class="user-pic"><%= image_tag("user-pic.jpg", width: "63", height: "74")%></div>
+                                  <div class="user-name">जेम्स थॉमस <span>मुख्य कार्यकारी अधिकारी - संस्थापक, ऍडरलोजिक</span></div>
+
+                                  <p>Lorem Ipsum फक्त मुद्रण आणि टाइपसेटिंग उद्योगाचे बनावट मजकूर आहे. </p>
+                                  <p>Lorem Ipsum फक्त मुद्रण आणि टाइपसेटिंग उद्योगाचे बनावट मजकूर आहे. </p>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-md-4 important-link">
+                          <h2>महत्वाचे दुवे</h2>
+                          <ul>
+                              <li><a href="#">४ कोटी वृक्षारोपण माहिती</a></li>
+                              <li><a href="#">वन विश्राम गृह / लॉजिंग / सफारीसाठी ऑनलाइन बुकिंग</a></li>
+                              <li><a href="#">जैव विविधता</a></li>
+                              <li><a href="#">महाराष्ट्र वन विकास महामंडळ</a></li>
+                              <li><a href="#">इंटरनेट</a></li>
+                              <li><a href="#">RTS सेवा</a></li>
+                              <li><a href="#">DIPP सेवा</a></li>
+                              <li><a href="#">हिरव्या सैन्य</a></li>
+                              <li><a href="#">महाराष्ट्र सरकार</a></li>
+                              <li><a href="#">महाराष्ट्र कृषी विभाग</a></li>
+                              <li><a href="#">महाराष्ट्र बातम्या</a></li>
+                          </ul>
+
+                      </div>
+                  </div>
+              </div>
+          </section>
+          <!-- Testimonials End-->
+          <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <%#*<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>%>
+          <!-- Include all compiled plugins (below), or include individual files as needed -->
+      <%#*<script src="assets/bootstrap.min.js"></script>%>
+      <%#*<script src="assets/wow.min.js"></script>%>
+          <script>
+              wow = new WOW(
+              {
+              animateClass: 'animated',
+              offset:       100,
+              callback:     function(box) {
+              console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+              }
+              }
+              );
+              wow.init();
+          </script>
+      </body>

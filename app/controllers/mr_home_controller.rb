@@ -27,4 +27,7 @@ class MrHomeController < ApplicationController
   def mr_anerdam
   end
   
+  def mr_yawal
+  end
+  
 end
