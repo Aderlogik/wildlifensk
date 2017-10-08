@@ -10,6 +10,8 @@ Rails.application.routes.draw do
    get 'contact' => "home#contact"
    get 'photogallery' => "home#photogallery"
    get 'eco_tourism' => "home#eco_tourism"
+   get 'nandur_madhameshwar' => "home#nandur_madhameshwar"
+   get 'anerdam' => "home#anerdam"
    
    scope "/mr" do
       match "/home"  => "mr_home#mr_home",     :via => [:get, :post]      #DONE
@@ -22,6 +24,8 @@ Rails.application.routes.draw do
   get 'mr_range_forest' => "mr_home#mr_range_forest"
   get 'mr_trekking' => "mr_home#mr_trekking"
   get 'mr_booking' => "mr_home#mr_booking"
+  get 'mr_nandur_madhameshwar' => "mr_home#mr_nandur_madhameshwar"
+  get 'mr_anerdam' => "mr_home#mr_anerdam"
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 

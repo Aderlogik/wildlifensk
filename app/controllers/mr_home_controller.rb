@@ -21,4 +21,10 @@ class MrHomeController < ApplicationController
    def mr_eco_tourism
   end
   
+  def mr_nandur_madhameshwar
+  end
+  
+  def mr_anerdam
+  end
+  
 end

@@ -14,4 +14,10 @@ class HomeController < ApplicationController
   def eco_tourism
   end
   
+  def nandur_madhameshwar
+  end
+  
+  def anerdam
+  end
+  
 end
