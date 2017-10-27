@@ -13,6 +13,7 @@ Rails.application.routes.draw do
    get 'nandur_madhameshwar' => "home#nandur_madhameshwar"
    get 'anerdam' => "home#anerdam"
    get 'yawal' => "home#yawal"
+   get 'range_forest' => "home#range_forest"
    
    scope "/mr" do
       match "/home"  => "mr_home#mr_home",     :via => [:get, :post]      #DONE

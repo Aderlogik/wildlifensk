@@ -23,4 +23,7 @@ class HomeController < ApplicationController
   def yawal
   end
   
+  def range_forest
+  end
+  
 end

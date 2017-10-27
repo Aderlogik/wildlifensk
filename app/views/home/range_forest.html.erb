@@ -1,0 +1,135 @@
+
+<section>
+	<div class="container-fluid eco-tourism">
+    	<div class="container">
+       	  <h1 class="page-title">Wildlife Sanctuary</h1>
+        </div>
+    </div>
+</section>
+<!-- Title Image end-->   
+
+ <!-- Range Forest start-->   
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+     
+      <div class="row">
+      	
+        <div class="col-md-4 wow bounceInLeft">
+        <h3>Nandur Madhameshwar WLS</h3>
+        <div class="box">
+          <div class="img-holder"><%= image_tag("img01.jpg", width: "353", height: "166")%>
+          	<div class="image-text">Nandur Madhameshwar Range</div>
+          </div>
+          <ul>
+          	<li><a href="#">Nandur Madhmeshwar Dam</a></li>
+            <li><a href="#">Migratory Birds</a></li>
+            <li><a href="#">Mrugvyadheshwar temple</a></li>
+            <li><a href="#">Beautyfull Sunset and Sunrise Sceneries</a></li>
+          </ul>
+          <p class="text-center"><%= link_to "View details »", nandur_madhameshwar_path, class: "btn btn-green" %></p>
+       </div>
+       </div>
+        <div class="col-md-4 wow flipInX center">
+        <h3>Kalsubai Harishhcandragad WLS</h3>
+        <div class="box">
+          <div class="img-holder"><%= image_tag("img02.jpg", width: "353", height: "166")%> 
+          	<div class="image-text">Rajur Range</div>
+          </div>
+          <ul>
+          	<li><a href="#">Nandur Madhmeshwar Dam</a></li>
+            <li><a href="#">Migratory Birds</a></li>
+            <li><a href="#">Mrugvyadheshwar temple</a></li>
+            <li><a href="#">Beautyfull Sunset and Sunrise Sceneries</a></li>
+          </ul>
+          <p class="text-center"><a class="btn btn-green" href="#" role="button">View details »</a></p>
+       </div>
+       </div>
+        <div class="col-md-4 wow bounceInRight">
+         <h3>&nbsp;</h3>
+        <div class="box">
+          <div class="img-holder"><%= image_tag("img03.jpg", width: "353", height: "166")%>  
+          	<div class="image-text">Bhandardara Range</div>
+          </div>
+          <ul>
+          	<li><a href="#">Nandur Madhmeshwar Dam</a></li>
+            <li><a href="#">Migratory Birds</a></li>
+            <li><a href="#">Mrugvyadheshwar temple</a></li>
+            <li><a href="#">Beautyfull Sunset and Sunrise Sceneries</a></li>
+          </ul>
+          <p class="text-center"><a class="btn btn-green" href="eco-tourism.html" role="button">View details »</a></p>
+       </div>
+       </div>
+       
+       <div class="col-md-4 wow bounceInLeft">
+        <h3>Yawal WLS</h3>
+        <div class="box">
+          <div class="img-holder"><%= image_tag("img04.jpg", width: "353", height: "166")%> 
+          	<div class="image-text">Jamnya Range</div>
+          </div>
+          <ul>
+          	<li><a href="#">Nandur Madhmeshwar Dam</a></li>
+            <li><a href="#">Migratory Birds</a></li>
+            <li><a href="#">Mrugvyadheshwar temple</a></li>
+            <li><a href="#">Beautyfull Sunset and Sunrise Sceneries</a></li>
+          </ul>
+          <p class="text-center"><%= link_to "View details »", yawal_path, class: "btn btn-green" %></p>
+       </div>
+       </div>
+       
+       <div class="col-md-4 wow flipInX center">
+        <h3>&nbsp;</h3>
+        <div class="box">
+          <div class="img-holder"><%= image_tag("img05.jpg", width: "353", height: "166")%> 
+          	<div class="image-text">Pal Range</div>
+          </div>
+          <ul>
+          	<li><a href="#">Nandur Madhmeshwar Dam</a></li>
+            <li><a href="#">Migratory Birds</a></li>
+            <li><a href="#">Mrugvyadheshwar temple</a></li>
+            <li><a href="#">Beautyfull Sunset and Sunrise Sceneries</a></li>
+          </ul>
+          <p class="text-center"><a class="btn btn-green" href="#" role="button">View details »</a></p>
+       </div>
+       </div>
+       
+       <div class="col-md-4 wow bounceInRight">
+       <h3>Aner Dam WLS</h3>
+        <div class="box">
+          <div class="img-holder"><%= image_tag("img06.jpg", width: "353", height: "166")%> 
+          	<div class="image-text">Aner dam  Range</div>
+          </div>
+          <ul>
+          	<li><a href="#">Nandur Madhmeshwar Dam</a></li>
+            <li><a href="#">Migratory Birds</a></li>
+            <li><a href="#">Mrugvyadheshwar temple</a></li>
+            <li><a href="#">Beautyfull Sunset and Sunrise Sceneries</a></li>
+          </ul>
+          <p class="text-center"><%= link_to "View details »", anerdam_path, class: "btn btn-green" %></p>
+       </div>
+       </div>
+      </div>
+</div>
+
+
+      
+    </div>
+<br /><br /><br />
+ <!-- Range Forest End-->  
+ 
+ <script>
+    wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       100,
+        callback:     function(box) {
+          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+        }
+      }
+    );
+    wow.init();
+	
+    
+  </script>
+  </body>
+</html>
