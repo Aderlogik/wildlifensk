@@ -1,6 +1,6 @@
 <%= javascript_include_tag "wow.min.js" %>
      <nav class="navbar navbar-default navbar-static-top">
-      <div class="container">
+      <div class="container-fluid">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
@@ -23,11 +23,19 @@
           <ul class="nav navbar-nav navbar-right">
             <li><%= link_to "मुख्यपृष्ठ", home_path %></li>
             <li><%= link_to "याबद्दल", mr_about_path %></li>
-            <li><%= link_to "श्रेणी वन", mr_range_forest_path %></li>
+            <li><%= link_to "वन्यजीव अभयारण्य", mr_range_forest_path %></li>
             <li><%= link_to "ट्रेकिंग", home_path %></li>
-            <li><%= link_to "RTI / RTS", home_path %></li>
+            <li><%= link_to "RTS", home_path %></li>
             <li><%= link_to "बुकिंग", home_path %></li>
-            <li><%= link_to "इको-पर्यटन", mr_eco_tourism_path %></li>
+              <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">इको-पर्यटन <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">नांदूर मधमेश्वर धरण</a></li>
+                        <li><a href="#">कळसूबाई</a></li>
+                        <li><a href="#">यावल</a></li>
+                        <li><a href="#">अनेर बांध</a></li>
+                    </ul>
+                </li>
             <li><%= link_to "छायाचित्र", mr_photogallery_path %></li>
             <li><%= link_to "संपर्क", mr_contact_path %></li>
           </ul>

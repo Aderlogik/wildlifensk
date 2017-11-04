@@ -14,6 +14,12 @@ Rails.application.routes.draw do
    get 'anerdam' => "home#anerdam"
    get 'yawal' => "home#yawal"
    get 'range_forest' => "home#range_forest"
+   get 'terms_conditions' => "home#terms_conditions"
+   get 'privacy_policy' => "home#privacy_policy"
+   get 'copyright_policy' => "home#copyright_policy"
+   get 'hyperlinking_policy' => "home#hyperlinking_policy"
+   get 'accessibility_statement' => "home#accessibility_statement"
+   get 'disclaimer' => "home#disclaimer"
    
    scope "/mr" do
       match "/home"  => "mr_home#mr_home",     :via => [:get, :post]      #DONE
@@ -29,6 +35,12 @@ Rails.application.routes.draw do
   get 'mr_nandur_madhameshwar' => "mr_home#mr_nandur_madhameshwar"
   get 'mr_anerdam' => "mr_home#mr_anerdam"
   get 'mr_yawal' => "mr_home#mr_yawal"
+  get 'mr_terms_conditions' => "mr_home#mr_terms_conditions"
+  get 'mr_privacy_policy' => "mr_home#mr_privacy_policy"
+  get 'mr_copyright_policy' => "mr_home#mr_copyright_policy"
+  get 'mr_hyperlinking_policy' => "mr_home#mr_hyperlinking_policy"
+  get 'mr_accessibility_statement' => "mr_home#mr_accessibility_statement"
+  get 'mr_disclaimer' => "mr_home#mr_disclaimer"
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 

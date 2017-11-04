@@ -1,6 +1,6 @@
 <%= javascript_include_tag "wow.min.js" %>     
 <nav class="navbar navbar-default navbar-static-top">
-      <div class="container">
+      <div class="container-fluid">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
@@ -20,17 +20,25 @@
                 </ul>
             </div>
          </div>
-          <ul class="nav navbar-nav navbar-right">
-            <li><%= link_to "Home", root_url %></li>
-            <li><%= link_to "About", about_path %></li>
-            <li><%= link_to "Range Forest", range_forest_path %></li>
-            <li><a href="#" id="visible"> Trekking</a></li>
-            <li><a href="#" id="visible"> RTI / RTS</a></li>
-            <li><a href="#" id="visible"> Booking</a></li>
-            <li><%= link_to "Eco-Tourism", eco_tourism_path %></li>
-             <li><%= link_to "Photogallery", photogallery_path %></li>
-            <li><%= link_to "Contact", contact_path %></li>
-          </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><%= link_to "Home", root_url %></li>
+                <li><%= link_to "About", about_path %></li>
+                <li><%= link_to "Wildlife Sanctuaries", range_forest_path %></li>
+                <li><a href="#" id="visible"> Trekking</a></li>
+                <li><a href="#" id="visible"> RTS</a></li>
+                <li><a href="#" id="visible"> Booking</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Eco-Tourism <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Naudurmadmeshwar</a></li>
+                        <li><a href="#">Kalsubai</a></li>
+                        <li><a href="#">Yawal</a></li>
+                        <li><a href="#">Aner Dam</a></li>
+                    </ul>
+                </li>
+                <li><%= link_to "Photogallery", photogallery_path %></li>
+                <li><%= link_to "Contact", contact_path %></li>
+            </ul>
         </div><!--/.nav-collapse -->
       </div>
     </nav>

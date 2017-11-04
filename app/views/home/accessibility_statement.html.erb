@@ -1,0 +1,90 @@
+<!-- Title Image-->
+<section>
+	<div class="container-fluid">
+    	<div class="container">
+        	<h1 class=" head"> Accessibility Statement </h1>
+        </div>
+    </div>
+</section>
+<!-- Title Image end-->
+
+ <!-- About and Important links-->
+ <section class="testimonials">
+ <div class="container">
+ 	<div class="row">
+    	<div class="col-md-8">
+        <p>Features incorporated in the Ministry of Social Justice website to make it accessible are:</p>
+        	<ul>
+            	<li><strong>Skip to Main Content:</strong> Quick access to the core content on the page is provided without going through repetitive navigation using the keyboard.</li>
+                <li><strong>Icons:</strong> Text has been supplemented with icons to enable users with learning disabilities understand the information easily. Icons have been provided along with text labels for key navigation options as well as important features, such as print, email etc.</li>
+                <li><strong>Keyboard support for drop-down menus:</strong> Drop-down menus have been used to display the top navigation options and expand/collapse lists have been used to display the left navigation options across the website. Keyboard access has been provided to enable users with mobility and visual disabilities access the navigation options. Keyboard users can access the top navigation and left navigation options in the following manner:
+                
+                	<ul>
+                    	<li><strong>Drop-down menus: </strong>Press the Tab key to navigate to the drop-down menu options, such as About Us, Meet the Ministers etc. Press Enter to Show/Hide the drop-down menu options and press the Tab key. Along with Tab key, screen reader user can access the drop-down menu options using the arrow keys. Further press the Enter key to activate the required option.</li>
+                        <li><strong>Expand/Collapse list:</strong> Press the Tab key to navigate the left navigation options, such as Schedule cast welfare, Welfare of backward classes etc. Press Enter to Open/Close the list and access the expanded list using either the Tab or Arrow keys. Further press the Enter key to activate the required option.</li>
+                    </ul>
+                </li>
+                <li><strong>Accessibility Options:</strong> Options to change the size of the text, set a color scheme and increase the text spacing are provided.</li>
+                <li><strong>Descriptive Link Text:</strong> Brief description of a link is provided using descriptive phrases instead of just using words such as 'Read more' and 'Click here' as link text. Further, if a link opens a Website in a new window, the description specifies the same.</li>
+                <li><strong>Identification of file type and file size:</strong> Information about alternate file types, such as PDF, Word, Excel along with the file size has been provided within the link text to help users identify the same. In addition, icons for different file types have been provided with the links. This helps users in deciding whether they wish to access the link. For example, if a link opens a PDF file, the link text specifies its file size and file type.</li>
+                <li><strong>Table Headers:</strong> The table headings are marked and associated with their corresponding cells in each row. This enables a screen reader to read out the column and row header of any cell for the user.</li>
+                <li><strong>Table caption and summary:</strong> Table captions are specified that act as labels, which indicate what data is provided in the table. In addition summary is specified to provide description for screen reader users to enable them understand the table information easily.</li>
+                <li><strong>Headings:</strong> The Web page content is organized using appropriate headings and subheadings that provide a readable structure. H1 indicates the main heading, whereas H2 indicates a subheading. In addition, appropriate headings have been provided to improve readability. For example, the left Navigation pane has been given a heading as Information About.</li>
+                <li><strong>Titles:</strong> An appropriate name for each Web page is specified that helps you to understand the page content easily.</li>
+                <li><strong>Alternate Text: </strong>Brief description of an image is provided for users with visual disability. If you are using a browser that supports only text or have turned off the image display, you can still know what the image is all about by reading the alternate text in absence of an image. In addition, some browsers display the alternate text in the form of a tooltip when the user moves the mouse pointer over the image.</li>
+                <li><strong>Explicit Form Label Association:</strong> A label is linked to its respective control, such as text box, check box, radio button, and drop-down list. This enables the assistive devices to identify the labels for the controls on a form.</li>
+                <li><strong>Consistent Navigation Mechanism:</strong> Consistent means of navigation and style of presentation throughout the Website has been incorporated.</li>
+                <li><strong>Keyboard Support:</strong> The website can be browsed using a keyboard by pressing the Tab and Shift + Tab keys.</li>
+                <li><strong>Customized Text Size:</strong> The size of the text on the Web pages can be changed either through the browser, through the Accessibility Options page or by clicking on the text sizing icons present at the top of each page.</li>
+                <li><strong>Adjust contrast scheme:</strong> The website provides different schemes to enable users with visual impairments, such as low vision and colorblindness to view the web page information with ease. Different contrast schemes include Standard, Yellow on Black, Yellow on Blue and Fuchsia on Black .</li>
+                <li><strong>Increase text spacing:</strong> Accessibility Options page provides with an option to increase white space between words. White space can be increased upto two levels. This option is helpful for users with visual and learning impairments who find it difficult to read the information which is presented using little white space between words.</li>
+                <li>Synchronized Captions: Captions have been added to enable users with hearing impairments access the audio/video content effectively.</li>
+                <li><strong>Large Print: </strong>Web pages include large print option which helps users with low vision and senior citizens to print the web page with large font size.</li>
+            </ul>
+           
+      
+        
+         
+        </div>
+        <div class="col-md-4 margin-topBot10">
+        <div class="important-link col-md-12">
+        	<h2>Important links</h2>
+                <ul>
+                    <li><a href="#">4 Crore Plantation Information</a></li>
+                    <li><a href="#">Online booking for Forest Rest Houses / Lodging / Safari</a></li>
+                    <li><a href="#">Bio-Diversity</a></li>
+                    <li><a href="#">Forest Development Corporation Of Maharashtra</a></li>
+                    <li><a href="#">Internet</a></li>
+                    <li><a href="#">RTS Services</a></li>
+                    <li><a href="#">DIPP Services</a></li>
+                    <li><a href="#">Green Army</a></li>
+                    <li><a href="#">Government of Maharashtra</a></li>
+                    <li><a href="#">Maharashtra Agriculture Deptt</a></li>
+                    <li><a href="#">Mahanews</a></li>
+                </ul>
+            </div>
+      <div class="important-link col-md-12 margin-topBot10">
+            	<h2>Upcoming Events</h2>
+                
+               <div><%= image_tag("events.png", style: 'width:100%') %></div>
+            </div>
+        </div>
+    </div>
+ </div>
+  </section>
+ <!-- About and Important links End-->
+
+ <script>
+    wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       100,
+        callback:     function(box) {
+          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+        }
+      }
+    );
+    wow.init();
+	
+    
+  </script>

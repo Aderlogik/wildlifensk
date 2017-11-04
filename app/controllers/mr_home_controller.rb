@@ -30,4 +30,22 @@ class MrHomeController < ApplicationController
   def mr_yawal
   end
   
+  def mr_terms_conditions
+  end
+  
+  def mr_privacy_policy
+  end
+  
+  def mr_copyright_policy
+  end
+  
+  def mr_hyperlinking_policy
+  end
+  
+  def mr_accessibility_statement
+  end
+  
+  def mr_disclaimer
+  end
+  
 end

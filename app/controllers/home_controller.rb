@@ -26,4 +26,21 @@ class HomeController < ApplicationController
   def range_forest
   end
   
+  def terms_conditions
+  end
+  
+  def privacy_policy
+  end
+  
+  def copyright_policy
+  end
+  
+  def hyperlinking_policy
+  end
+  
+  def accessibility_statement
+  end
+  
+  def disclaimer
+  end
 end
