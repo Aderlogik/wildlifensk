@@ -1,4 +1,5 @@
-<%= javascript_include_tag "wow.min.js" %>     
+<%= javascript_include_tag "wow.min.js" %>
+<%= javascript_include_tag "bootstrap.min.js" %>
 <nav class="navbar navbar-default navbar-static-top">
       <div class="container-fluid">
         <div class="navbar-header">
@@ -25,15 +26,15 @@
                 <li><%= link_to "About", about_path %></li>
                 <li><%= link_to "Wildlife Sanctuaries", range_forest_path %></li>
                 <li><a href="#" id="visible"> Trekking</a></li>
-                <li><a href="#" id="visible"> RTS</a></li>
+                <li><%= link_to "RTS", "http://117.239.200.166/forestportal/index.php?option=rtsapp&AntiFixation=2a2554618b2c791c182ab58f330b7d5a.",  target: :_blank %></li>
                 <li><a href="#" id="visible"> Booking</a></li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Eco-Tourism <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="#">Naudurmadmeshwar</a></li>
+                        <li><%= link_to "Naudurmadmeshwar", nandur_madhameshwar_path %></li>
                         <li><a href="#">Kalsubai</a></li>
-                        <li><a href="#">Yawal</a></li>
-                        <li><a href="#">Aner Dam</a></li>
+                        <li><%= link_to "Yawal", yawal_path %></li>
+                        <li><%= link_to "Aner Dam", anerdam_path %></li>
                     </ul>
                 </li>
                 <li><%= link_to "Photogallery", photogallery_path %></li>

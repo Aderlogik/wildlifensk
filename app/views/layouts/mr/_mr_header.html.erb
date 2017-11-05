@@ -1,4 +1,5 @@
 <%= javascript_include_tag "wow.min.js" %>
+<%= javascript_include_tag "bootstrap.min.js" %>
      <nav class="navbar navbar-default navbar-static-top">
       <div class="container-fluid">
         <div class="navbar-header">
@@ -25,15 +26,15 @@
             <li><%= link_to "याबद्दल", mr_about_path %></li>
             <li><%= link_to "वन्यजीव अभयारण्य", mr_range_forest_path %></li>
             <li><%= link_to "ट्रेकिंग", home_path %></li>
-            <li><%= link_to "RTS", home_path %></li>
+            <li><%= link_to "RTS", "http://117.239.200.166/forestportal/index.php?option=rtsapp&AntiFixation=2a2554618b2c791c182ab58f330b7d5a.",  target: :_blank %></li>
             <li><%= link_to "बुकिंग", home_path %></li>
               <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">इको-पर्यटन <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="#">नांदूर मधमेश्वर धरण</a></li>
+                        <li><%= link_to "नांदूर मधमेश्वर धरण", mr_nandur_madhameshwar_path %></li>
                         <li><a href="#">कळसूबाई</a></li>
-                        <li><a href="#">यावल</a></li>
-                        <li><a href="#">अनेर बांध</a></li>
+                        <li><%= link_to "यावल", mr_yawal_path %></li>
+                        <li><%= link_to "अनेर बांध", mr_anerdam_path %></li>
                     </ul>
                 </li>
             <li><%= link_to "छायाचित्र", mr_photogallery_path %></li>
