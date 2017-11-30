@@ -1,22 +1,22 @@
 @font-face {
     font-family: 'open_sansbold';
-    src: url('opensans-bold-webfont.woff2') format('woff2'),
-         url('opensans-bold-webfont.woff') format('woff');
+    src: url('/assets/opensans-bold-webfont.woff2') format('woff2'),
+         url('/assets/opensans-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'NirmalaUI';
-    src: url('NirmalaUI.eot?#iefix') format('embedded-opentype'); src: url('NirmalaUI.woff') format('woff'); src: url('NirmalaUI.ttf')  format('truetype'); src: url('NirmalaUI.svg#NirmalaUI') format('svg');
+    src: url('/assets/NirmalaUI.eot?#iefix') format('embedded-opentype'); src: url('/assets/NirmalaUI.woff') format('woff'); src: url('/assets/NirmalaUI.ttf')  format('truetype'); src: url('/assets/NirmalaUI.svg#NirmalaUI') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'open_sansregular';
-    src: url('opensans-regular-webfont.woff2') format('woff2'),
-         url('opensans-regular-webfont.woff') format('woff');
+    src: url('/assets/opensans-regular-webfont.woff2') format('woff2'),
+         url('/assets/opensans-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -24,16 +24,16 @@
 
 @font-face {
     font-family: 'open_sanssemibold';
-    src: url('opensans-semibold-webfont.woff2') format('woff2'),
-         url('opensans-semibold-webfont.woff') format('woff');
+    src: url('/assets/opensans-semibold-webfont.woff2') format('woff2'),
+         url('/assets/opensans-semibold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
 @font-face {
     font-family: 'open_sanslight';
-    src: url('opensans-light-webfont.woff2') format('woff2'),
-         url('opensans-light-webfont.woff') format('woff');
+    src: url('/assets/opensans-light-webfont.woff2') format('woff2'),
+         url('/assets/opensans-light-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
