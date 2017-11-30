@@ -38,6 +38,14 @@
     font-style: normal;
 
 }
+
+.carousel{ z-index:1;}
+.navbar-default{ z-index:2;}
+
+@media screen and (max-width: 767px) {
+ .navbar-collapse{ margin-top:70px; background:#fff; box-shadow: 10px 10px 5px #888888;} 
+}
+
 body{font-family: 'open_sansregular' !important;}
 .container{ overflow:hidden;}
 .navbar{height:122px; margin-bottom:0px !important;}
