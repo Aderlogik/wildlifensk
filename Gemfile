@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+ruby "2.2.4"
  gem 'rails', '4.0.6'
 # # Use sqlite3 as the database for Active Record
  gem 'mysql2', '~> 0.3.18'
@@ -22,7 +23,7 @@ source 'https://rubygems.org'
  gem 'jbuilder', '~> 2.0'
  gem 'therubyracer',  platforms: :ruby
  gem 'execjs'
- gem 'pg'
+# gem 'pg'
 # # bundle exec rake doc:rails generates the API under doc/api.
  gem 'sdoc', '~> 0.4.0',          group: :doc
 #
