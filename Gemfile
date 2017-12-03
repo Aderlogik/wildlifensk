@@ -23,7 +23,7 @@ ruby "2.2.4"
  gem 'jbuilder', '~> 2.0'
  gem 'therubyracer',  platforms: :ruby
  gem 'execjs'
-# gem 'pg'
+ gem 'pg'
 # # bundle exec rake doc:rails generates the API under doc/api.
  gem 'sdoc', '~> 0.4.0',          group: :doc
 #
