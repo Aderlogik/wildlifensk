@@ -11,6 +11,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 0) do
+ActiveRecord::Schema.define(version: 20171219193350) do
+
+  create_table "dept_news", force: true do |t|
+    t.text     "marathi_text"
+    t.text     "english_text"
+    t.text     "news_url"
+    t.datetime "updated_at"
+    t.datetime "created_at"
+  end
 
 end

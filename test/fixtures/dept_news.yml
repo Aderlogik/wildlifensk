@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  marathi_text: MyText
+  english_text: MyText
+  news_url: MyText
+  crated_at: 2017-12-13
+  updated_at: 2017-12-13
+
+two:
+  marathi_text: MyText
+  english_text: MyText
+  news_url: MyText
+  crated_at: 2017-12-13
+  updated_at: 2017-12-13

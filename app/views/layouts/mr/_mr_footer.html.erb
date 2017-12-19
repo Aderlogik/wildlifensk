@@ -27,10 +27,9 @@
             <div class="col-md-4">
             	<h4>विभागीय बातम्या</h4>
             	<ul class="footer-news">
-                	<li><a href="#">ब्लोअर ई निविदा सिप्णा विभागणी परतवाडा ०१/०९/२०१७</a></li>
-                    <li><a href="#">कोल्हापूर ३०/०६/२०१७ च्या नियुक्ती करारासाठी शुद्धीपत्र </a></li>
-                    <li><a href="#">संविदा बेस सेवानिवृत्त अधिकारी भर्ती राष्ट्रीय उद्यान बोरिवली २८/०८/२०१७</a></li>
-                    <li><a href="#">बांधकाम दुरुस्तीसाठी ई निविदा, नागपूर १३/०७/२०१७</a></li>
+                     <%$news_info.each do |_news|%>
+                      <li><%=link_to  _news.marathi_text, _news.news_url%></li>
+                    <%end%>
                     <li class="text-right"><a href="#" class="view-all">सर्व पहा</a></li>
                 </ul>
             </div>

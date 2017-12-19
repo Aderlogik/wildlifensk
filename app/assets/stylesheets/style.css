@@ -39,6 +39,15 @@
 
 }
 
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+ h3{
+  font-size:20px !important;
+ }
+}
+
 .carousel{ z-index:1;}
 .navbar-default{ z-index:2;}
 

@@ -1,0 +1,59 @@
+
+<div class="form-group row">
+  <label for="example-month-input" class="col-2 col-form-label">मराठी मजकुर</label>
+  <div class="col-10">
+    <input class="form-control" id="marathi" type="text" placeholder="मराठी मजकुर">
+  </div>
+</div>
+<div class="form-group row">
+  <label for="example-month-input" class="col-2 col-form-label">English Text</label>
+  <div class="col-10">
+    <input class="form-control" id="english" type="text" placeholder="English text">
+  </div>
+</div>
+<div class="form-group row">
+  <label for="example-month-input" class="col-2 col-form-label">News Url</label>
+  <div class="col-10">
+    <input class="form-control" id="news_link" type="text" placeholder="news url">
+  </div>
+</div>
+
+<button type="submit" class="btn btn-primary" onclick="insert_news()" style="background-color: #49b007; border: none;margin-left: -14px">Submit</button>
+
+
+
+<script type="text/javascript">
+    function insert_news(ctrl ){
+    var marathi_text = document.getElementById("marathi").value;
+    var english_text = document.getElementById("english").value;
+    var news_url = document.getElementById("news_link").value;
+    console.log(marathi_text);
+    console.log(english_text);
+    console.log(news_url);
+    
+      $.ajax({
+        url: "/insert_news",
+        type: "post",
+        datatype:"json",
+        
+        data :{
+            "marathi_text" : marathi_text,
+            "english_text" : english_text,
+            "news_url" : news_url
+        },
+        beforeSend: function () {
+
+        },
+        complete: function () {
+
+        },
+        success: function () {
+           alert("News insert Successfully ....!");
+           document.getElementById("marathi").value = "";
+           document.getElementById("english").value = "";
+           document.getElementById("news_link").value = "";
+        }
+      })
+      
+    }
+    </script>

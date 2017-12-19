@@ -43,7 +43,11 @@ Rails.application.routes.draw do
   get 'mr_disclaimer' => "mr_home#mr_disclaimer"
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
-
+  get 'admin' => "admin#admin"
+  get 'signin' => "admin#signin"
+  
+  match "/insert_news" => "admin#insert_news", :via => :post
+#  post 'insert_news' => "admin#insert_news" 
   # Example of named route that can be invoked with purchase_url(id: product.id)
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase
 
