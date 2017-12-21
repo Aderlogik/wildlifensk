@@ -1,7 +1,6 @@
 class AdminController < ApplicationController
   skip_before_filter :verify_authenticity_token
   http_basic_authenticate_with name: "admin", password: "admin"
-  require "awesome_print"
   layout "admin"
   
   def admin
@@ -14,7 +13,6 @@ class AdminController < ApplicationController
      marathi = params["marathi_text"]
      english = params["english_text"]
      news_link = params["news_url"]
-     ap params
      news = DeptNews.new()
      news.marathi_text = marathi
      news.english_text = english
